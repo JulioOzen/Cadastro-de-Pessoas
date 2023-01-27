@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+header{
+  background-color: rgb(48, 0, 223);
+  display: flex;
+  color: white;
+  padding: 10px;
+}
+
+.divh1{
+  width: 50%;
+  display: flex;
+  justify-content: left;
+}
+
+.divh2{
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+.divh2-1{ 
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.divh2-1 p{
+  cursor: pointer;
+  transition: .5s;
+  border-bottom: 1px solid rgb(48, 0, 223);
+}
+
+.divh2-1 p:hover{
+  border-bottom: 1px solid white;
+}
+
+
+main{
+  margin-top: 100px;
+}
+
+.secLogin{
+  display: flex;
+  justify-content: center;
+}
+
+
+.div1Login{
+  text-align: left;
+  padding: 10px;
+  width: 60vh;
+}
+
+.div1Login p{
+  font-size: 30px;
+}
+
+label,input{
+  display:flex;
+  flex-direction:column;
+}
+
+.p1{
+  padding: 10px;
+  height: 40px;
+  border-bottom: 2px solid rgb(78, 12, 78);
+}
+
+.p2{
+  text-align: center;
+  padding: 10px;
+  height: 40px;
+  border: 3px solid rgb(78, 12, 78);
+  border-radius: 5px;
+  width: 20%;
+}
